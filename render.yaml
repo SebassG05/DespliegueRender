@@ -1,0 +1,7 @@
+environment:
+  type: web
+  name: my-express-app
+  region: oregon
+  plan: free
+buildCommand: npm install
+startCommand: node src/app.js
